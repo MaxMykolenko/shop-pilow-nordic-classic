@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подушка Nordic Classic</title>
+    <!-- Підключення Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3LR36PBPW"></script>
+    <script>
+         window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+        gtag('config', 'G-Q3LR36PBPW');
+    </script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P38DQPDD');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P38DQPDD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="top-menu">
+        <a class="navbar-logo" href="index.html" style="text-decoration: none;"></a>
+        <ul class="menu-main">
+            <li><a href="" target="_blank">Посилання 1</a></li>
+            <li><a href="" target="_blank">Посилання 2</a></li>
+            <li><a href="" target="_blank">Посилання 3</a></li>
+            <li><a href="" target="_blank">Посилання 4</a></li>
+        </ul>
+    </nav>
+
+    <div class="product-container">
+        <div>
+            <div class="product-title">Подушка Nordic Classic</div>
+            <div class="product-main-img-wrap">
+                <div class="swiper swiper-fade">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="Files/image1.png" alt="Зображення 1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Files/image2.jpg" alt="Зображення 2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Files/image3.jpg" alt="Зображення 3">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-price">449 грн</div>
+
+        <button id="buyButton" class="buy-button">Купити</button>
+
+    <script>
+     document.getElementById('buyButton').addEventListener('click', function() {
+        window.location.href = 'buy.html';
+     });
+    </script>
+
+
+    </div>
+
+    <div class="product-details">
+        <div class="product-description">
+            <h2>Опис</h2>
+            <p>
+                Подушка Nordic Classic — це сучасний виріб, виготовлений на високоякісному обладнанні, що гарантує надійність та довговічність. Вона створена для комфортного сну та безпеки здоров'я. Завдяки різноманітним розмірам, подушка підходить для всіх членів сім'ї і є ідеальною основою для декоративних подушок.
+
+                Її матеріали (мікрофібра для чохла та поліефірне волокно з силіконовою обробкою для наповнювача) забезпечують максимальний комфорт і зручність, роблячи подушку підходящою для будь-якої пори року. Подушку легко прати при температурі до 40 °C, вона швидко сохне, зберігаючи форму та властивості, що робить догляд за нею простим та зручним.
+
+            </p>
+        </div>
+        <div class="product-specs">
+            <h2>Характеристики</h2>
+            <ul>
+                <li>Матеріал: мікрофібра</li>
+                <li>Наповнювач: поліефірне волокно, оброблене силіконом</li>
+                <li>Чохол: підсилений, комфортний для будь-якої пори року</li>
+                <li>Температура прання: до 40 °C</li>
+                <li>Розміри: доступна велика розмірна сітка</li>
+            </ul>
+        </div>
+        <div class="product-complectation">
+            <h2>Комплектація</h2>
+            <ul>
+                <li>Подушка Nordic Classic</li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="product-reviews">
+        <h2>Відгуки</h2>
+        <div class="reviews-list">
+            <!-- Тут будуть з’являтися відгуки -->
+            <p>Немає відгуків. Будьте першим!</p>
+        </div>
+        <form class="review-form">
+            <label for="review">Залиште свій відгук:</label>
+            <textarea id="review" name="review" rows="4" placeholder="Напишіть ваш відгук тут..."></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </div>
+
+    <footer>
+        <a href="https://github.com/MaxMykolenko" style="color: #cacbc7;">©Made by Maks Mykolenko</a>
+    </footer>
+
+</body>
+
+</html>
